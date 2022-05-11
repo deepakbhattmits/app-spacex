@@ -3,7 +3,6 @@ import DarkModeToggle from "../DarkModeToggle";
 const NavBar: FC = (): JSX.Element => (
   <nav className="nav__wrapper">
     <div className="nav__wrapper--left-content">
-      {" "}
       <h1 className="text-3xl font-bold underline">App SpaceX !</h1>
     </div>
     <div className="nav__wrapper--right-content">
