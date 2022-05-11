@@ -1,0 +1,39 @@
+.nav__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  &--right-content {
+    display: flex;
+    grid-gap: 1rem;
+    .btn-theme {
+      border: 0.2rem solid transparent;
+      box-shadow: 0 0.25em 0.25em rgb(0, 0, 0, 0.3);
+      text-decoration: none;
+      outline: 0 solid;
+      transition: all 0.4s ease-out;
+      &:hover {
+        border-color: var(--color-primary-light);
+        box-shadow: 0 0.5em 0.5em rgb(0, 0, 0, 0.4);
+        svg path {
+          fill: var(--color-primary-light);
+        }
+      }
+    }
+    .btn {
+      &-login,
+      &-logout {
+        padding: 0.5rem;
+        border: 0.2rem solid transparent;
+        box-shadow: 0 0.25em 0.25em rgb(0, 0, 0, 0.3);
+        &:hover {
+          border-color: var(--color-primary-light);
+          box-shadow: 0 0.5em 0.5em rgb(0, 0, 0, 0.4);
+          svg path {
+            fill: var(--color-primary-light);
+          }
+        }
+      }
+    }
+  }
+}

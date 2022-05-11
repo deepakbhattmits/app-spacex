@@ -1,0 +1,62 @@
+$color-primary: #55c57a;
+$color-primary-light: #7ed56f;
+$color-primary-dark: #28b485;
+
+$color-secondary-light: #fbb900;
+$color-secondary-dark: #ff7730;
+
+$color-tertiary-light: #2998ff;
+$color-tertiary-dark: #5643fa;
+
+$color-gray-dark: #777;
+$color-gray-dark-1: #999;
+$color-gray-dark-2: #333;
+$color-gray-light-1: #f7f7f7;
+$color-gray-light-2: #eee;
+
+$color-white: #fff;
+$color-black: #000;
+$color-dark-black: #292c35;
+$color-red: #ff0000;
+
+//FONT
+$default-font-size: 1.6rem;
+
+// GRID
+
+$max-width: 114rem;
+$max-width-small: 50rem;
+$gutter-vertical: 8rem;
+$gutter-vertical-small: 6rem;
+$gutter-horizontal: 6rem;
+//custom property
+:root {
+  --color-primary: #{$color-primary};
+  --color-primary-dark: #{$color-primary-dark};
+  --color-primary-light: #{$color-primary-light};
+  --color-secondary-dark: #{$color-secondary-dark};
+  --color-secondary-light: #{$color-secondary-light};
+  --color-tertiary-dark: #{$color-tertiary-dark};
+  --color-tertiary-light: #{$color-tertiary-light};
+  --color-gray-dark: #{$color-gray-dark};
+  --color-gray-dark-1: #{$color-gray-dark-1};
+  --color-gray-dark-2: #{$color-gray-dark-2};
+  --color-gray-light-1: #{$color-gray-light-1};
+  --color-gray-light-2: #{$color-gray-light-2};
+  --color-white: #{$color-white};
+  --color-theme: #{$color-white};
+  --color-black: #{$color-black};
+  --color-red: #{$color-red};
+  --max-width: #{$max-width};
+
+  --max-width-small: #{$max-width-small};
+  --gutter-vertical: #{$gutter-vertical};
+  --gutter-vertical-small: #{$gutter-vertical-small};
+  --gutter-horizontal: #{$gutter-horizontal};
+  --default-font-size: #{$default-font-size};
+}
+[data-theme='dark'] {
+  --color-gray-light-1: #{$color-dark-black};
+  --color-black: #{$color-white};
+  --color-theme: #{$color-white};
+}

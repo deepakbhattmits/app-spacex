@@ -1,0 +1,17 @@
+.container {
+  padding: 0.5rem;
+  @media screen and (max-width: 40rem) {
+    padding: 0;
+  }
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 1rem;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 2rem 0;
+}
