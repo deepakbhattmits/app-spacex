@@ -57,6 +57,7 @@ $gutter-horizontal: 6rem;
 }
 [data-theme='dark'] {
   --color-gray-light-1: #{$color-dark-black};
+   --color-gray-light-2: #{$color-gray-dark-2};
   --color-black: #{$color-white};
   --color-theme: #{$color-white};
 }
