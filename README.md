@@ -14,6 +14,7 @@ This assignment is based on the spacex GraphQL api: https://api.spacex.land/grap
 - Tailwind
 - react-toastify - (for notification)
 - antd
+- Cypress: [Cypress.io](https://www.cypress.io/) end to end testing tool.
 
 # Steps to start this app
 
