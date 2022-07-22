@@ -73,7 +73,7 @@ const DarkModeToggle: FC = (): JSX.Element => {
           </Tooltip>
         </>
       )}
-      <style jsx>{`
+      <style>{`
         .checkbox {
           opacity: 0;
           position: absolute;
