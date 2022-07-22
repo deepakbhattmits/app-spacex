@@ -1,5 +1,5 @@
 /// <reference types="cypress"/>
-context("Main page", () => {
+describe("Main page", () => {
   it("GET request", () => {
     cy.request({
       method: "POST",
@@ -21,3 +21,4 @@ context("Main page", () => {
     });
   });
 });
+export {}
