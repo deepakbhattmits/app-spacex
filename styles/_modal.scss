@@ -1,0 +1,11 @@
+.ant-modal {
+  &-footer {
+    .ant-btn {
+      background-color: rgb(59, 130, 246, 1);
+      color: rgb(255, 255, 255, 1);
+      &:hover {
+        background-color: rgb(29, 78, 216, 1);
+      }
+    }
+  }
+}
