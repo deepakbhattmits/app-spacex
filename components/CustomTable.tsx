@@ -142,6 +142,10 @@ const CustomTable: FC<IProp> = ({ datas }) => {
     });
     return renderColumns;
   };
+  const handleOkCancel = () => {
+    setIsModalVisible(false);
+    setSelectedFields([]);
+  };
   useEffect(() => {
     const localSelectedRowKeys = JSON.parse(
       localStorage.getItem("selectedRowKeys")!
@@ -190,8 +194,8 @@ const CustomTable: FC<IProp> = ({ datas }) => {
         title="QR code generator"
         centered
         visible={isModalVisible}
-        onOk={() => setIsModalVisible(false)}
-        onCancel={() => setIsModalVisible(false)}
+        onOk={handleOkCancel}
+        onCancel={handleOkCancel}
       >
         <List
           header={
@@ -246,7 +250,7 @@ const CustomTable: FC<IProp> = ({ datas }) => {
                     }
                     setSelectedFields(updatedList);
                   }}
-                  // checked={selectedRowKeys?.includes(text)}
+                  checked={selectedFields?.includes(item["1"])}
                 />
                 <span className="ml-2">{item["0"]}</span>
               </label>
