@@ -14,3 +14,4 @@ context("Main page", () => {
     cy.get(".ant-table-wrapper").should("be.visible");
   });
 });
+export {};
