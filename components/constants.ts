@@ -7,6 +7,7 @@ export const columns = [
     ellipsis: {
       showTitle: true,
     },
+    width: "12%",
   },
   {
     title: "Date",
@@ -25,6 +26,7 @@ export const columns = [
     dataIndex: "mission_name",
     key: "mission_name",
     sorter: true,
+    width: "12%",
   },
   {
     title: "Description",
@@ -44,9 +46,10 @@ export const columns = [
     dataIndex: "mission_name",
     key: "mission_name",
     sorter: true,
+    width: "12%",
   },
   {
-    title: "Generate QR code",
+    title: "QR code",
     ellipsis: {
       showTitle: false,
     },
