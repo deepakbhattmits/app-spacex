@@ -35,6 +35,25 @@ export const columns = [
     key: "description",
     sorter: false,
   },
+  ,
+  {
+    title: "Mission Name",
+    ellipsis: {
+      showTitle: false,
+    },
+    dataIndex: "mission_name",
+    key: "mission_name",
+    sorter: true,
+  },
+  {
+    title: "Generate QR code",
+    ellipsis: {
+      showTitle: false,
+    },
+    dataIndex: "qr",
+    key: "qr",
+    sorter: false,
+  },
 ];
 export const pagination = {
   defaultPageSize: 10,
